@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="cufon-active cufon-ready">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Welcome to Flipkart</title>
+<link rel="stylesheet" href="f2-1.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style type="text/stylesheet">
+.body{
+    margin:0px;
+	padding:0px;
+}
+.mySlides {
+    display:none;
+}
+</style>
+
+</head>
+<body>
+<div class="container">
+<div class="main">
+    <div class="logo">
+	    <a href="https://www.flipkart.com/"><img width="75" src="flipkart-plus.png" alt="Flipkart" title="Flipkart"/></a>
+		<a href="https://www.flipkart.com/"><i style="color:white;">Explore</i><span style="color:#ffe500;margin-right:2px;font-style:italic;">Plus</span><img width="10" src="plus_b.png"/></a>
+	</div>
+	<div class="search">
+	    <form>
+		    <input type="text" value="" style="padding:0 16px;border-radius:2px 0 0 2px;border:0 none;outline:0 none;font-size:14px;height:36px;width:500px" title="Search for products, brands and more" name="q" autoComplete="off" placeholder="Search for products, brands and more"/>
+			<button style="padding:0px 15px;margin-left:0px;border: 0;border-radius:2px;background:#fff;color: #666;height:36px;">Go</button>
+		</form>
+	</div>
+	<div class="cart">
+	    <div style="padding:0 40px;">User 
+		     <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_3eosFR">
+				 <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_2GxHSA">
+				</path>
+			</svg>
+		</div>
+		<div style="padding:0 40px;">More 
+		    <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_3eosFR">
+			    <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_2GxHSA">
+				</path>
+			</svg>
+		</div>
+		<div style="padding:0 40px;">Cart
+		    <svg class="_1-mlum" width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+				<path class="_21lxeA" d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86" fill="#fff">
+				</path>
+		    </svg>
+		</div>
+	</div>
+</div>
+<div class="menu">
+    <a href="#">Electronics</a>
+	<a href="#">TV & Appliances</a>
+	<a href="#">Men</a>
+	<a href="#">Women</a>
+	<a href="#">Baby&Kids</a>
+	<a href="#">Home & Furniture</a>
+	<a href="#">Sports,Books & More</a>
+	<a href="#">Offer Zone</a>
+</div>
+<div class="w3-content w3-section" style="padding-top:110px;" >
+  <img class="mySlides" src="offer1.jpg" style="width:100%;height:280px">
+  <img class="mySlides" src="offer2.jpg" style="width:100%;height:280px">
+  <img class="mySlides" src="offer3.jpg" style="width:100%;height:280px">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<div id="deals">
+    <div class="sale-item">
+        <img src="computer.jpg"
+         alt="You get: a white computer with matching peripherals.">
+        <button>BUY NOW</button>
+    </div>
+	<div class="sale-item">
+        <img src="Vivo.jpg"
+         alt="You get: a white computer with matching peripherals.">
+        <button>BUY NOW</button>
+    </div>
+    <div class="sale-item">
+        <img src="tv.jpg"
+         alt="You get: a white computer with matching peripherals.">
+        <button>BUY NOW</button>
+    </div>
+	<div class="sale-item">
+        <img src="electronics.jpg"
+         alt="You get: a white computer with matching peripherals.">
+        <button>BUY NOW</button>
+    </div>
+	<div class="sale-item">
+        <img src="LG.jpg"
+         alt="You get: a white computer with matching peripherals.">
+        <button>BUY NOW</button>
+    </div>
+	<div class="sale-item">
+        <img src="Fashion1.jpg"
+         alt="You get: a white computer with matching peripherals.">
+        <button>BUY NOW</button>
+    </div>
+	<!--<div class="sale-item">
+        <img src="Fashion.jpg"
+         alt="You get: a white computer with matching peripherals.">
+        <button>BUY NOW</button>
+    </div>
+	<div class="sale-item">
+        <img src="furni.jpg"
+         alt="You get: a white computer with matching peripherals.">
+        <button>BUY NOW</button>
+    </div>-->
+</div>
+<div class="w3-content w3-display-container">
+  <img class="mySlides1" src="furni.jpg" style="width:100%;height:280px;">
+  <img class="mySlides1" src="LG.jpg" style="width:100%;height:280px">
+  <img class="mySlides1" src="Fashion.jpg" style="width:100%;height:280px;">
+  <img class="mySlides1" src="Fashion1.jpg" style="width:100%;height:280px;">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</div>
+</body>
+</html>
